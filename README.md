@@ -6,8 +6,8 @@
 ```unix
 mkdir -p ~/GitHub/rkiel
 cd ~/GitHub/rkiel
-git clone https://github.com/rkiel/learnjs.git
-cd learnjs
+git clone https://github.com/rkiel/serverless-spa.git
+cd serverless-spa
 ```
 
 #### Make it your own
