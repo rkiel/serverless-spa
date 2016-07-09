@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-active = [:learnjs]
+active = [:sspa]
 
 # PROVISION: runs as 'root' by default; append '-' at the end to run as 'vagrant'
 
@@ -15,7 +15,7 @@ servers = {
   aws:     {type: :aws,         provision: %w{rvm- aws-} },
   heroku:  {type: :heroku,      provision: %w{rvm- heroku- ssh-} },
   node:    {type: :javascript,  provision: %w{node rvm- aws-} },
-  learnjs: {type: :javascript,  provision: %w{node rvm- aws-} },
+  sspa:    {type: :javascript,  provision: %w{node aws-} },
   express: {type: :javascript,  provision: %w{node express mongodb_client} },
   sails:   {type: :javascript,  provision: %w{node sails mongodb_client} },
   mean:    {type: :javascript,  provision: %w{node mean mongodb_client} },
