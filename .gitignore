@@ -1,0 +1,6 @@
+.DS_Store
+dist
+working
+master
+.rvmrc
+.vagrant
